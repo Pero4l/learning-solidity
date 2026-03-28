@@ -9,6 +9,8 @@ contract Counter {
 
     uint256[] public users = [1,2,3,4,5];
 
+    mapping(address => uint256) public balances;
+
     function increment() public {
         count += 1;
     }
