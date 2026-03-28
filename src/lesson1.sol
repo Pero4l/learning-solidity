@@ -7,7 +7,7 @@ contract Counter {
 
     string public name = "PTB";
 
-    uint256[] public users;
+    uint256[] public users = [1,2,3,4,5];
 
     function increment() public {
         count += 1;
