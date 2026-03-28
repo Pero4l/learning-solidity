@@ -11,11 +11,11 @@ contract UserProfile {
     function register (string memory _name, uint256 _age) public {
 
     require(!isRegistered, "Already Registered");
-    
+
     name = _name;
     age = _age;
     owner = msg.sender;
-    isRegister = true;
+    isRegistered = true;
 
     }
 
