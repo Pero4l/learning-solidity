@@ -9,7 +9,10 @@ contract userProfile {
     bool public isRegistered;
 
     function register () {
-        
+    
+    name = "Ptb";
+    age = 16;
+
     }
 
 }
