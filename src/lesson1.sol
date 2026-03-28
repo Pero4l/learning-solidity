@@ -13,9 +13,12 @@ contract Counter {
 
     mapping(address => uint256) public balances;
 
+    constructor(){
+          
+        owner = msg.sender
+    }
 
 
-    
 
     function increment() public {
         count += 1;
