@@ -5,4 +5,5 @@ contract userProfile {
 
     string public name;
     uint256 public age;
+    address public owner;
 }
