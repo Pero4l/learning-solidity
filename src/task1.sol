@@ -12,7 +12,8 @@ contract userProfile {
     
     name = "Ptb";
     age = 16;
-    owner = msg.sender
+    owner = msg.sender;
+    isRegister = true;
 
     }
 
