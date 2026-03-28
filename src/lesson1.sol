@@ -4,6 +4,8 @@ pragma solidity ^0.8.13;
 contract Counter {
 
     uint256 public count;
+    
+    string public name = "PTB";
 
     function increment() public {
         count += 1;
